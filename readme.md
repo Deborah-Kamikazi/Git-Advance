@@ -91,4 +91,18 @@
  ```
   ### Cherry-Picking Commits:
   ```
+  116  git branch ft/branch
+  117  git checkout ft/branch
+  118  git add test5.md
+  119  git commit -m "change on fith file "
+  120  git checkout main
+  121  git log
+  122  git chechout ft/branch
+  123  git checkout ft/branch
+  124  git log
+  125  git checkout main
+  126  git cherry-pick 3bae3e1ff01586476074f2485a81894d08af1c4c
+  127  git log --oneline
+  128  history
+
   ```
