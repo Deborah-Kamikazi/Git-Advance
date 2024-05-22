@@ -190,6 +190,28 @@
  177  git branch -m ft/new-branch-from-commit ft/improved-branch-name
   178  history
 ```
-### Checking Out Detached HEAD:  85cc263f71bce1faff490ee19282c4033c82d404
+### Checking Out Detached HEAD:  
 ```
+ 182  git checkout 85cc263f71bce1faff490ee19282c4033c82d404
+  183  git add readme.md
+  184  git commit -m "addition of part 2 "
+  185  git checkout 85cc263f71bce1faff490ee19282c4033c82d404
+  186  git checkout main
+  187  git log
+  188  git  log --oneline
+  189  git reset b4109e9
+  190  git reset b4109e98ce0f3bc792ce3d46dc86509b4a86a51e
+  191  git checkout ft/improved-branch-name
+  192  git add .
+  193  git commit -m "changes on ft/improved-branch-name "
+  194  git push
+  195   git push --set-upstream origin ft/improved-branch-name
+  196  git checkout main
+  197  git pull
+  198  history
+```
+# part3:
+### Stashing Changes:
+```
+
 ```
