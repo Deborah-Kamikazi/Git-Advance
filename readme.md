@@ -56,4 +56,36 @@
   
  ### Reordering Commits:
  ```
+ 81  git commit -m "another change on read me "
+   82  git history
+   83  git branch
+   84  git branch main
+   85  git branch
+   86  git checkout main
+   87  git status
+   88  git log --oneline
+   89  git rebase -i --root
+   90  git log --oneline
+   91  git rebase --continue
+   92  git log
+   93  git log --oneline
+   94  git rebase -i HEAD~3
+   95  git rebase --continue
+   96  git rebase --skip
+   97  git log
+   98  git log --oneline
+   99  git rebase -i HEAD~3
+  100  git rebase -i HEAD~3
+  101  git rebase -i HEAD~4
+  102  git rebase -i HEAD~5
+  103  git rebase -i HEAD~8
+  104  git rebase -i HEAD~7
+  105  git log --oneline
+  106  git rebase -i HEAD~7
+  107  git log --oneline
+  108  git rebase -i HEAD~7
+  109  git log --onelone
+  110  git log --oneline
+  111  history
+
  ```
