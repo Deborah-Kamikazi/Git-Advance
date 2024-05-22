@@ -126,4 +126,70 @@
   140  history 
   ```
   # part2:
-  
+  ### Feature Branch Creation:
+  ```
+  149  git branch ft/new-feature
+  150  git checkout ft/new-feature
+  ```
+  ### Working on the Feature Branch:
+  ```
+   git add feature.txt
+  152  git commit -m "Implemented core functionality for new feature "
+  ```
+  ### Switching Back and Making More Changes:
+  ```
+  156  git checkout main
+  157  git add readme.txt
+  158  git commit -m "Updated project readme "
+  159  history
+
+  ```
+  ### Local vs. Remote Branches:
+  ```
+   160  git push origin ft/new-feature
+  161  git push origin ft/new-feature
+  162  history
+  ```
+  ### Local vs. Remote Branches:
+  ```
+  160  git push origin ft/new-feature
+  161  git push origin ft/new-feature
+  162  history
+```
+### Branch Deletion:
+```
+ 163  git branch -d ft/new-feature
+  164  git merge -sft/new-feature
+  165  git branch -D ft/new-feature
+  166  history
+
+```
+### Creating a Branch from a Commit:
+```
+ 167  git log
+  168  git log --oneline
+  169  git checkout -b ft/new-branch-from-commit HEAD~2
+  170  history
+
+```
+### Branch Merging:
+```
+ 171  git checkout main
+  172  git merge ft/new-branch-from-commit
+  173  history
+```
+### Branch Rebasing:
+```
+ 174  git checkout ft/new-branch-from-commit
+  175  git rebase main
+  176  history
+
+```
+### Renaming Branches:
+```
+ 177  git branch -m ft/new-branch-from-commit ft/improved-branch-name
+  178  history
+```
+### Checking Out Detached HEAD:  85cc263f71bce1faff490ee19282c4033c82d404
+```
+```
