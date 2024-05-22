@@ -221,4 +221,22 @@
 ```
 ### Retrieving Stashed Changes:
 ```
+ 209  git stash pop
+  210  git add readme.md
+  211  git commit -m "retrieving stashed changes "
+```
+### Branch Merging Conflicts (Continued):
+```
+ git merge ft/branch
+  215  history
+```
+### Resolving Merge Conflicts with a Merge Tool:
+```
+ 216  git mergetool
+  217  git help config
+  218  history
+
+```
+### Understanding Detached HEAD State:
+```
 ```
