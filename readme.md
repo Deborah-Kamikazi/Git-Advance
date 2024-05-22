@@ -106,3 +106,12 @@
   128  history
 
   ```
+  ### Visualizing Commit History (Bonus):
+  ```
+  129  git add readme.md
+  130  git commit -m "used cherry-pick "
+  131  git log --graph
+  132  git log
+  133  history
+
+  ```
