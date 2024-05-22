@@ -239,4 +239,32 @@
 ```
 ### Understanding Detached HEAD State:
 ```
+ 219  git add .
+  220  git commit -m "changes on part3 "
+  221  git push
+  222  git git checkout ft/improved-branch-name
+  223  git checkout   ft/improved-branch-name
+  224  git checkout main
+  225  history
+
+```
+### Ignoring Files/Directories:
+```
+```
+### Working with Tags:
+```
+ 226  git tag v1.0
+```
+### Listing and Deleting Tags:
+```
+ 226  git tag v1.0
+  227  history
+  228  git tag
+  229  git tag -d v1.0
+  230  git tag
+  231  history
+
+```
+### Pushing Local Work to Remote Repositories:
+```
 ```
