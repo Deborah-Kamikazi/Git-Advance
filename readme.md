@@ -213,5 +213,9 @@
 # part3:
 ### Stashing Changes:
 ```
-
+ 199  git stash
+  200  git stash apply
+  201  git add readme.md
+  202  git commit -m "the start of part 3 "
+  203  history
 ```
