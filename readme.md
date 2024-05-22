@@ -267,4 +267,13 @@
 ```
 ### Pushing Local Work to Remote Repositories:
 ```
+ 234  git commit -m "final changes "
+  235  git push origin <branch-name>
+  236  git push origin main
+```
+### Pulling Changes from Remote Repositories:
+```
+238  git push origin <branch-name>
+  239  git pull origin main
+  240  history
 ```
