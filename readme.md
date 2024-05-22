@@ -30,7 +30,7 @@
   ```
 
   ### Dropping a Commit:
-
+  ```
   110  git add Unwanted.txt
   111  git commit -m "chores:unwanted commit "
   112  git -i HEAD~2
@@ -52,6 +52,8 @@
   128  git rebase --continue
   129  git log
   130  history
-
+  ```
+  
  ### Reordering Commits:
- 
+ ```
+ ```
