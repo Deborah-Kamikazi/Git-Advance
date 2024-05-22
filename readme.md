@@ -116,5 +116,14 @@
 
   ```
   ### Understanding Reflogs (Bonus):
-  ``` 
   ```
+   134  git add readme.md
+  135  git commit -m "visualizing commit history "
+  136  git reflog
+  137  history
+  138  git add readme.md
+  139  git commit -m "understanding reflogs "
+  140  history 
+  ```
+  # part2:
+  
