@@ -219,3 +219,6 @@
   202  git commit -m "the start of part 3 "
   203  history
 ```
+### Retrieving Stashed Changes:
+```
+```
